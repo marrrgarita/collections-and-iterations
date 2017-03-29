@@ -53,3 +53,26 @@ fav_music.each do |x|
 end
 
 puts "EXERCISE 3"
+
+puts "step 1: #{fav_music.first(2)}"
+
+puts "step 2:"
+
+fav_movies.each do |movie, year|
+  puts "#{movie} came out in #{year}"
+end
+
+ages = ages.sort.reverse
+
+puts "step 3: #{ages}"
+
+puts "EXERCISE 4"
+
+puts "step 1:"
+
+total = 0
+cities.each do |city, population|
+  total += population
+end
+
+puts total
