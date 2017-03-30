@@ -76,3 +76,39 @@ cities.each do |city, population|
 end
 
 puts total
+
+puts "step 2: #{ages.max}"
+
+puts "step 3: #{coin_flip_heads.count(true)}"
+
+puts "step 4: #{fav_music.delete("Feist")}"
+
+cities.store("Toronto", 23)
+
+puts "step 5: #{cities}"
+
+puts 'EXERCISE 5'
+
+puts "step 2:"
+
+sibling_ages.each do |name, age|
+  if age > 20
+    puts "#{name} is old"
+  else
+    puts "#{name} is young"
+  end
+end
+
+puts "step 3: #{fav_colours.last(2)}"
+
+puts "step 4:"
+
+ages.each do |age|
+  age += 1
+  puts age
+end
+
+fav_colours << "periwinkle"
+fav_colours << "tomato"
+
+puts "step 4: #{fav_colours}"
