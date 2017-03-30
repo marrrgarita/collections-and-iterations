@@ -112,3 +112,50 @@ fav_colours << "periwinkle"
 fav_colours << "tomato"
 
 puts "step 4: #{fav_colours}"
+
+puts "EXERCISE 6a"
+
+movie_years = {1999 => ["The Matrix", "Star Wars Ep 1", "The Mummy"], 2009 => ["Avatar", "Star Trek", "District 9"], 2019 => ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Ep 9"]}
+
+puts movie_years
+
+phone_rows = [[1,2,3], [4,5,6], [7,8,9], ["*", 0, "#"]]
+
+puts phone_rows
+
+canada = { name: "Canada", continent: "North America", island: false}
+
+japan = { name: "Japan", continent: "Asia", island: true}
+
+philippines = { name: "Philippines", continent: "Asia", island: true}
+
+puts canada
+puts japan
+puts philippines
+
+puts "EXERCISE 6b"
+
+# 20.times do
+#   puts "I will not skateboard in the halls"
+# end
+#
+# skateboard = ["I will not skateboard in the halls"] * 20
+#
+# puts "step 2: #{skateboard}"
+
+nums =* (1..50)
+
+total = 0
+nums.each do |x|
+  total += x
+end
+puts total
+
+triple_array = []
+
+(1..50).each do |num|
+  3.times do triple_array.push(num)
+  end
+end
+
+puts triple_array
